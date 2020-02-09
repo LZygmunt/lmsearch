@@ -1,0 +1,47 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mediaqueries";
+
+.tag-list {
+  width: calc(100% - 0.8em);
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  display: flex;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 400;
+
+  .tag {
+    min-width: max-content;
+    height: max-content;
+    margin: 0.2em;
+    padding: 0.4em;
+    border: map_get( $colors, "aqua" ) 1px solid;
+    border-radius: 0.7em;
+    cursor: pointer;
+  }
+}
+
+@include breakpoints( "laptop" ) {
+  .tag-list {
+    .tag {
+      font-size: 14px;
+    }
+  }
+}
+
+@include breakpoints( "tablet10" ) {
+  .tag-list {
+    .tag {
+      font-size: 12px;
+    }
+  }
+}
+
+@include breakpoints( "tablet7" ) {
+  .result-item {
+    .tag {
+      font-size: 10px;
+    }
+  }
+}

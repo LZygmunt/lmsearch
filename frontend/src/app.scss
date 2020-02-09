@@ -1,0 +1,72 @@
+@import "assets/scss/variables";
+@import "assets/scss/mediaqueries";
+
+body {
+  background-color: map_get( $colors, "dark-blue" );
+}
+
+.app {
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+
+  & > #not-found {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      height: 40%;
+    }
+
+    h1 {
+      position: absolute;
+      top: 40%;
+    }
+
+    h4 {
+      position: absolute;
+      top: 40%;
+      margin-top: 2.2em;
+    }
+  }
+
+  .question-mark {
+    font-size: 24px;
+    position: absolute;
+    right: .5em;
+    top: .5em;
+    z-index: 5;
+  }
+}
+
+@include breakpoints( "laptop" ) {
+  .app {
+    width: 90%;
+  }
+}
+
+@include breakpoints( "tablet10" ) {
+  .app {
+    width: 100%;
+  }
+}
+
+@include breakpoints( "phoneL" ) {
+  .app {
+    overflow-y: scroll;
+
+    & > #not-found {
+      h1 {
+        font-size: 18px;
+      }
+
+      h4 {
+        font-size: 12px;
+      }
+    }
+  }
+}

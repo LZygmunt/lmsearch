@@ -1,0 +1,32 @@
+@import "variables";
+
+.color-aqua {
+  color: map_get( $colors, "aqua" );
+}
+
+.color-black {
+  color: map_get( $colors, "black" );
+}
+
+.color-white {
+  color: map_get( $colors, "white" );
+}
+
+.color-dark-blue {
+  color: map_get( $colors, "dark-blue" );
+}
+
+.color-greyish-blue {
+  color: map_get( $colors, "greyish-blue" );
+}
+
+.color-green {
+  color: map_get( $colors, "green" );
+}
+
+.non-selected {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,14 @@
+@import "../../../assets/scss/variables";
+
+#info {
+  padding-top: 100px;
+  padding-left: 60px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: map_get($colors, "aqua");
+  }
+}

@@ -1,0 +1,42 @@
+@keyframes spinner {
+  from {
+    transform: rotateZ( 0 );
+  }
+  to {
+    transform: rotateZ( 360deg );
+  }
+}
+
+@keyframes pulse-rotate {
+  from {
+    width: 24px;
+    height: 24px;
+  }
+  33% {
+    width: 64px;
+    height: 64px;
+    transform: rotateY( 0 );
+  }
+  50% {
+    width: 64px;
+    height: 64px;
+    transform: rotateZ( 720deg );
+  }
+  67% {
+    width: 64px;
+    height: 64px;
+    transform: rotateY( 360deg );
+  }
+  to {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.spin {
+  animation: spinner 1s infinite;
+
+  &::after {
+    animation: none;
+  }
+}

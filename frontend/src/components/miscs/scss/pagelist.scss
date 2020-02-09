@@ -1,0 +1,52 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mediaqueries";
+
+#page-list {
+  height: 43vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  #page {
+    height: 60%;
+    overflow: hidden;
+
+    &.flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .current-page {
+    color: map_get( $colors, "aqua" );
+  }
+
+  #first > p,
+  #page > p,
+  #last > p {
+    width: 100%;
+    min-height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #first > p:hover,
+  #page > p:hover,
+  #last > p:hover,
+  #first > p:active,
+  #page > p:active,
+  #last > p:active {
+    color: map_get( $colors, "aqua" );
+  }
+}
+
+@include breakpoints("phoneL") {
+  #page-list {
+    height: 80%;
+  }
+}

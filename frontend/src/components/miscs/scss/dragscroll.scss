@@ -1,0 +1,11 @@
+.draggable {
+  touch-action: none;
+
+  &, & > * {
+    cursor: grab;
+  }
+
+  &.active, &.active > * {
+    cursor: grabbing;
+  }
+}

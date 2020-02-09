@@ -1,0 +1,135 @@
+@import "../../../assets/scss/mediaqueries";
+@import "../../../assets/scss/variables";
+
+.result-item {
+  max-width: 30vw;
+  min-width: 15vw;
+  height: 21vh;
+  display: flex;
+  position: relative;
+  border-radius:  0.7em;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+  }
+
+  .r-image {
+    min-width: 7vw;
+    height: 21vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0.7em;
+
+    & > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      filter: brightness( 40% );
+      border-radius:  0.7em 0 0 0.7em;
+    }
+
+    & > p {
+      z-index: 1;
+    }
+  }
+
+  .description {
+    width: calc(100% - 7vw);
+
+    h4, p {
+      max-width: 100%;
+      margin: 0.5em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    h4 {
+      -webkit-line-clamp: 2;
+    }
+
+    p {
+      font-size: 14px;
+      -webkit-line-clamp: 3;
+    }
+  }
+
+  .number-info {
+    display: none;
+  }
+}
+
+@include breakpoints( "laptop" ) {
+  .result-item {
+    .r-image > p {
+      font-size: 12px;
+    }
+
+    .description {
+      & > p {
+        font-size: 12px;
+      }
+
+      & > h4 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@include breakpoints( "tablet10" ) {
+  .result-item {
+    .r-image {
+      width: 7em;
+    }
+  }
+}
+
+@include breakpoints( "tablet7" ) {
+  .result-item {
+    .r-image {
+      display: none;
+    }
+
+    .description {
+      padding-top: 0.3em;
+      width: 100%;
+
+      p {
+        -webkit-line-clamp: 2;
+      }
+    }
+
+    .number-info {
+      display: block;
+      position: absolute;
+      top: -1.2em;
+      left: 1em;
+      background-color: map_get($colors, "dark-blue");
+      color: map_get($colors, "aqua");
+      padding: 0.4em 0.6em;
+      font-size: 12px;
+      border-radius: 0.7em 0.7em 0 0;
+    }
+  }
+}
+
+@include breakpoints( "phoneL" ) {
+  .result-item {
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+}

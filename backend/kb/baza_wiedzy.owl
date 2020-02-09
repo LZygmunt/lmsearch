@@ -1,0 +1,1174 @@
+[ {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#.NET",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoProgramistyczne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#2D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#3D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#API",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#InterfejsProgramistyczny" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ARM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BudowaSystemu" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Adminer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Alexa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AsystentGłosowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Android",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mobilne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AngularJS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AntixLinux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeBiurowe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeCyfrowe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeCyfrowe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeCyfrowe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Apple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemOperacyjny"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Ar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ArchLinux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Arduino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Astrologia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AsystentGłosowy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SztucznaInteligencja"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Audacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorAudio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AutoSSH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tunelowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BATCH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Powłoka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BOINC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BigData" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Backup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Barrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bash",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Powłoka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazaWiedzy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Beos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemOperacyjny"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Biblioteka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BigData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bitnami",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bodhi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BrogBackup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Budgie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BudowaSystemu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#C++",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#CD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćOptyczna", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćZewnętrzna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#COBOL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#CSS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#CYA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Caddy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Cantata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczAudio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#CherryTree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Chrome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Przeglądarka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ColorLS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RozszerzeniaPowłoki" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ColorTail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RozszerzeniaPowłoki" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Combine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Cordova",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Cryptomator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SzyfrowanieDanych" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Cyclos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemBankowości" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#DNS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#DNSiag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Diagnostyka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#DVD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćOptyczna", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćZewnętrzna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Debian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Deepin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Diagnostyka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Docker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Dokumenty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#DropWizadr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Drupal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ESP8266",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EasySSH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tunelowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Edge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Przeglądarka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorAudio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorWideo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Electron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ElementaryOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EncFS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemPlików", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SzyfrowanieDanych" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Evernote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ExaGearDesktop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#FIDO2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#FOSS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#FOSSH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#FTP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Facebook",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PortaleSpołecznościowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Fedora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Findmnt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Firefox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Przeglądarka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#FreeBSD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GIMP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GNOME",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GNOMEBoxes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GNOMERecipes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GOlang"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GOlang",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GPIO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GPS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Geolokacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mapy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GRUB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ProgramRozruchowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Geolokacja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Ghost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Git",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Git-gui",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GitAhead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GitHub",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Gitg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Gitk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GoForIt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GoPiGo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Gogs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GoogleAssistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AsystentGłosowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GravitDesigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#GrepCidr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#HDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćZewnętrzna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#HTTP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#HTTPS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#HaikuOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Beos" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Heads",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Hue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SztucznaInteligencja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#HumHub",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PortaleSpołecznościowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#IP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ImageMagick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Interfejs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#InterfejsProgramistyczny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Interfejs"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#IoT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JAVA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JPEG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JPG"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JPG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JavaScript"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JavaScript",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Joplin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Jądro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KDE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KDEPlasma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kali",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kdenlive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorWideo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczWideo" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Keyboardio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Knime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BigData", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Know-HOW",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeBiurowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LNAV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LogFileNavigator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Laravel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Ledger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeBiurowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LibreBoot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ProgramRozruchowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LibreOffice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeBiurowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Librem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Linux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LinuxMint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LinuxUser",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LinuxVoice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LittleBits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LogFileNavigator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LukiBezpieczeństwa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MMS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MPD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczAudio" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MusicPlayerDeamon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MacOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Apple", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Magento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Manjaro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Meltdown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LukiBezpieczeństwa" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Meteor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MicroPython",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Microsoft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemOperacyjny"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Migawka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MitAppInventor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoProgramistyczne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mobilne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemOperacyjny"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MongoDB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MoreUtils",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MultiTail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RozszerzeniaPowłoki" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#MusicPlayerDeamon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczAudio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mwan3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mycroft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AsystentGłosowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NativeScript",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Natron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorWideo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczWideo" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NaukaGry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeCyfrowe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Netdata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Diagnostyka", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Nitrux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Node.JS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NodeJS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NodeJS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Nootka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorAudio", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NaukaGry" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Nowości",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NośnikDanych",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Nuitka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykKompilowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ODFgrep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RozszerzeniaPowłoki" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ODROID-C2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OGGvorbis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorAudio", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczAudio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćWirtualna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczAudio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeCyfrowe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczWideo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeCyfrowe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OpenAstro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Astrologia" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OpenOffice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeBiurowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorTekstowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OpenSUSE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OpenStreetMap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Geolokacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mapy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OpenVPN",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tunelowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OpenWRT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Openscad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Opera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Przeglądarka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PCIE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Interfejs" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PCL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PDF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Dokumenty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PHP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PHPMyAdmin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PNG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PaaS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoProgramistyczne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćOperacyjna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NośnikDanych"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćOptyczna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NośnikDanych"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćWewnętrzna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NośnikDanych"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćWirtualna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NośnikDanych"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćZewnętrzna",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NośnikDanych"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PepperMintOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Perf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PiXtend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PiggyDB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazaWiedzy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PirateBox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Pixelitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#AplikacjeGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Plone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PortaleSpołecznościowe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Powłoka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ProgramRozruchowy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Programowanie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Proton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Przeglądarka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Purism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Python",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#QML",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Qgis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Geolokacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mapy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#QmapShack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Geolokacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mapy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#QubesOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RAM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćOperacyjna", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćWewnętrzna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RISC-V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RabbitMQ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Raport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RaspberryPi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ReactJS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Biblioteka", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ReactNative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykMobliny" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Redis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Reform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Route",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Router",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RozszerzeniaPowłoki",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Powłoka"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SASS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SCSS"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SCSS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SMS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SQL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SQlite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SSD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćZewnętrzna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SSH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tunelowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SSHuttle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tunelowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SVG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorWideo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Grafika" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SaaS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoProgramistyczne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Safari",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Przeglądarka" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Scapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Diagnostyka", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Scraper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazaWiedzy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Scraping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazaWiedzy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SocialHardware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SztucznaInteligencja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Solus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Spectre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#LukiBezpieczeństwa" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Społeczność",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sprzęt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sudo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sysadmin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemBankowości",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemOperacyjny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemPlików",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Systemd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SztucznaInteligencja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SzyfrowanieDanych",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TCP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tails",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TechnologiaProgramowania",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Telnet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TematNumeru",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Terminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#TigerVNC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tmate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Tunelowanie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Twitter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PortaleSpołecznościowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#USB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Interfejs" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Ubuntu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#UniCloud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#InterfejsProgramistyczny", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoProgramistyczne" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unison",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Diagnostyka", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemOperacyjny"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#VHS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćOptyczna", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PamięćZewnętrzna" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#VMWare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#VNC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Protokoły", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Vidir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#KopieZapasowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#NarzędziaSystemowe" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#VirtualBox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#VolksPCOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#SystemWbudowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Voyager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#VueJS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Framework", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WWW",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Sieć" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WaveForm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#EdytorAudio", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#OdtwarzaczAudio" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Wayland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#RozszerzeniaPowłoki", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WebAuthn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Bezpieczeństwo" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WiFi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Interfejs", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Komunikacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Moduł" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Windows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Microsoft" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Witrualizacja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#WolneOprogramowanie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Wordpress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BazyDanych", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykInterpretowany", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#JęzykWebowy", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#YouTube",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#PortaleSpołecznościowe", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Serwer" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieTreścią",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZarządzanieWersją",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZestawNarzędzi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZorinOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ZróbToSam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Kategorie" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#iOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Apple", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Mobilne", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Unix/Linux" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#x86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#BudowaSystemu" ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoGraficzne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#System"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#ŚrodowiskoProgramistyczne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/fedorok/ontologies/baza-wiedzy#Narzędzia"
+  } ]
+} ]

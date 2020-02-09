@@ -1,0 +1,16 @@
+@import "variables";
+
+.bg-aqua {
+  background-color: map_get( $colors, "aqua" );
+}
+
+.bg-greyish-blue {
+  background-color: map_get( $colors, "greyish-blue" );
+}
+
+.bg-dark-blue {
+  background-color: map_get( $colors, "dark-blue" );
+}
+.bg-terminal-grey {
+  background-color: map_get( $colors, "terminal-grey" );
+}

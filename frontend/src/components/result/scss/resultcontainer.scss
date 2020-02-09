@@ -1,0 +1,159 @@
+@import "../../../assets/scss/mediaqueries";
+@import "../../../assets/scss/variables";
+
+#result-container {
+  overflow: hidden;
+  height: 80vh;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  .column:first-of-type {
+    width: 3%;
+    margin-right: 0.5vw;
+  }
+
+  .column:last-of-type {
+    width: 97%;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 2vh max-content 2vh;
+    grid-row-gap: 1em;
+
+    /* arrows */
+    .btn {
+      width: 1rem;
+      height: 1.25em;
+      margin: 0 auto;
+      font-size: 24px;
+
+      &:last-of-type {
+        margin-top: auto;
+
+        &:hover::after {
+          content: "Następna";
+        }
+      }
+
+      &:first-of-type:hover::after {
+        content: "Poprzednia";
+      }
+
+      &:hover::after {
+        position: relative;
+        width: max-content;
+        top: -.5em;
+        left: -2em;
+        z-index: 3;
+        background-color: map_get($colors, "greyish-blue");
+        padding: 5px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  #result-list {
+    max-width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-column-gap: 1.5vw;
+    grid-row-gap: 1.5em;
+    grid-template:
+      "a a a"
+      "a a a"
+      "a a a";
+    justify-content: space-between;
+  }
+
+  #not-found {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      height: 40%;
+    }
+
+    h1 {
+      position: absolute;
+      top: 40%;
+    }
+  }
+}
+
+@include breakpoints( "laptop" ) {
+  #result-container {
+    height: 85vh;
+
+    .column:last-of-type {
+      grid-template-rows: 5vh max-content 5vh;
+      grid-row-gap: 0;
+    }
+  }
+}
+
+@include breakpoints( "tablet7" ) {
+  #result-container {
+    .column:first-of-type {
+      margin-right: 0.5em;
+    }
+
+    .column:last-of-type {
+      margin-top: -1em;
+      grid-template-rows: 7vh max-content 7vh;
+    }
+
+    #not-found h1 {
+      width: max-content;
+    }
+  }
+}
+
+@include breakpoints( "phoneL" ) {
+  #result-container {
+    margin-right: 0;
+    width: 90%;
+
+    .column:first-of-type {
+      margin: 0 1.5em;
+      padding-top: 3em;
+      height: 90%;
+    }
+
+    .column:last-of-type {
+      height: 90%;
+      min-height: 70%;
+      display: block;
+      margin-top: -2em;
+
+      .btn {
+        display: none;
+      }
+    }
+
+    #result-list {
+      padding-top: .7em;
+      width: 100%;
+      height: 100%;
+      display: block;
+      overflow-y: scroll;
+    }
+  }
+}
+
+@include breakpoints( "phoneP" ) {
+  #result-container {
+    .column:last-of-type {
+      height: 80%;
+    }
+
+    #not-found h1 {
+      font-size: 18px;
+      width: 60%;
+    }
+  }
+}

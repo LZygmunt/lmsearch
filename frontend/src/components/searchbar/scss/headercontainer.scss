@@ -1,0 +1,19 @@
+@import "../../../assets/scss/mediaqueries";
+
+#header-container {
+  height: 18vh;
+  width: 100%;
+}
+
+@include breakpoints( "laptop" ) {
+  #header-container {
+    height: 15vh;
+    display: flex;
+  }
+}
+
+@include breakpoints( "phoneL" ) {
+  #header-container {
+    height: 5em;
+  }
+}

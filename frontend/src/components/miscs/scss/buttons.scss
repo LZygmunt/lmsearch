@@ -1,0 +1,7 @@
+@import "../../../assets/scss/variables";
+
+.btn:hover,
+.btn:active {
+  color: map_get( $colors, "aqua" );
+  cursor: pointer;
+}
