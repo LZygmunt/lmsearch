@@ -5,6 +5,7 @@ import PageList from "../miscs/PageList";
 import ResultList from "./ResultList";
 import ResultItem from "./ResultItem";
 import { setCurrentPage, searchArticles } from "../../store/actions/actions";
+import flags from "../../utils/flags";
 
 import SadTux from "../../assets/images/sad_tux_400x343.png";
 import "./scss/resultcontainer.scss";
@@ -90,11 +91,11 @@ class ResultContainer extends Component {
     let limit = 9, presArr;
     let start = ( currentPage - 1 ) * limit;
 
-    if ( flag === "Got" || flag === "Is Actual" ){
+    if ( flag === flags.got ){
       presArr = articles;
-    } else if ( flag === "Found" ) {
+    } else if ( flag === flags.found  || flag === flags.isActual || flag === flags.updated ) {
       presArr = foundArticles;
-    } else if ( flag === '' || flag === 'Pending' ){
+    } else if ( flag === '' || flag === flags.pending ){
       presArr = [
         { number_text: " - ", keyword: [""], header: "", description: "", link: "", id_desc: 0, img_url: "" },
         { number_text: " - ", keyword: [""], header: "", description: "", link: "", id_desc: 1, img_url: "" },
@@ -120,7 +121,7 @@ class ResultContainer extends Component {
       flag={ flag }
     /> );
 
-    return flag === "Found" && countArticles === 0
+    return flag === flags.found && countArticles === 0
       ? (<div id="result-container">
         <div id="not-found">
           <img

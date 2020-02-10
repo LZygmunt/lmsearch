@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Buttons from "../miscs/Buttons";
 import TagList from "../miscs/TagList";
+import flags from "../../utils/flags";
 
 import "./scss/header.scss";
 
@@ -23,7 +24,7 @@ const Header = (
           onClick={ handleClick }
         />
         <Buttons
-          passClasses={ `sync ${ flag === "Is Actual" ? "color-green" : "" } ${ flag === "Pending" ? "spin" : "" }` }
+          passClasses={ `sync ${ flag === flags.isActual ? "color-green" : "" } ${ flag === flags.pending ? "spin" : "" }` }
           iconName="sync"
           onClick={ handleClick }
         />
@@ -44,7 +45,7 @@ const Header = (
       >{ title }</p>
       <div id="result-number">
         <p>
-          <found>Znaleziono </found>
+          <i id="found">Znaleziono </i>
           <span>{ found }</span> wynik{ found === 0 || found > 4 ? "ów" : ( found !== 1 && "i" )}</p>
       </div>
     </div>

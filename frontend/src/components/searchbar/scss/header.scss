@@ -90,6 +90,8 @@
   }
 
   & > #result-number {
+    i { font-style: normal; }
+
     & span {
       font-size: 18px;
       font-weight: 600;
@@ -191,7 +193,7 @@
       width: max-content;
     }
 
-    found {
+    #found {
       display: none;
     }
   }
