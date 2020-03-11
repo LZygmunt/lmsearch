@@ -8,7 +8,7 @@ const { table } = require( './dbscript' );
 const config = {
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: '12-0QW[pAS;lZX.,',
   database: 'search'
 };
 

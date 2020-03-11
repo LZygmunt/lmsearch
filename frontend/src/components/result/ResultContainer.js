@@ -91,9 +91,9 @@ class ResultContainer extends Component {
     let limit = 9, presArr;
     let start = ( currentPage - 1 ) * limit;
 
-    if ( flag === flags.got ){
+    if ( flag === flags.got || flag === flags.updated ){
       presArr = articles;
-    } else if ( flag === flags.found  || flag === flags.isActual || flag === flags.updated ) {
+    } else if ( flag === flags.found  || flag === flags.isActual ) {
       presArr = foundArticles;
     } else if ( flag === '' || flag === flags.pending ){
       presArr = [

@@ -11,10 +11,13 @@
  * @property {string} fillKeywords - Zapytanie wypełniające słowami kluczowymi.
  * @property {string} checkIfEmpty - Zapytanie sprawdzające czy tabela keywords jest wypełniona.
  */
+
+const db = "search";
+
 module.exports = {
   table: {
-    dbCreate: "CREATE DATABASE IF NOT EXISTS search CHARACTER SET utf8 COLLATE utf8_polish_ci;",
-    useSearch: "USE search",
+    dbCreate: "CREATE DATABASE IF NOT EXISTS " + db + " CHARACTER SET utf8 COLLATE utf8_polish_ci;",
+    useSearch: "USE " + db,
     createLinks: "CREATE TABLE IF NOT EXISTS links(id_link int NOT NULL AUTO_INCREMENT, link text, number_text text, number int, img_url text, PRIMARY KEY ( id_link )) CHARACTER SET utf8 COLLATE utf8_polish_ci;",
     createDescs: "CREATE TABLE IF NOT EXISTS descs( id_desc int NOT NULL AUTO_INCREMENT, header text, description text, PRIMARY KEY ( id_desc )) CHARACTER SET utf8 COLLATE utf8_polish_ci;",
     createContents: "CREATE TABLE IF NOT EXISTS contents( id_content int NOT NULL AUTO_INCREMENT, id_link int, id_desc int, PRIMARY KEY ( id_content )) CHARACTER SET utf8 COLLATE utf8_polish_ci;",
